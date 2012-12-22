@@ -211,7 +211,7 @@ void cProcess(PGM *image)
     /*w, h, max*/
     tempImg.width = safeGetInt("Please input the width (Integer expected, less than 100): ", 1, 100);
     tempImg.height = safeGetInt("Please input the height (Integer expected, less than 100): ", 1, 100);
-    tempImg.greyMax = safeGetInt("Please input the MAX greyscale level (Integer expected, less than 256): ", 0, 255);
+    tempImg.greyMax = safeGetInt("Please input the MAX greyscale level (Integer expected, less than 256): ", 1, 255);
     printf("Image Width[%d], Height[%d], GreyMax[%d]\n", tempImg.width, tempImg.height, tempImg.greyMax);
     /*data*/
     printf("Please input data (total number of pixel = [%d])\n", tempImg.width*tempImg.height);
@@ -291,7 +291,7 @@ void vProcess(const PGM *image)
 
 void mProcess(PGM *image)
 {
-	int i;
+	int i, status;
 	printf("Option 'm' selected: ID Marking...");
 	if(isNullPGM(image))
 	{
@@ -306,17 +306,22 @@ void mProcess(PGM *image)
 	switch(i)
 	{
 		case 1:
-			embedInfoPGM(image, "32110552020");
+			status = embedInfoPGM(image, "32110552020");
 			break;
 		case 2:
-			embedInfoPGM(image, "32110549919");
+			status = embedInfoPGM(image, "32110549919");
 			break;
 		case 3:
-			embedInfoPGM(image, "32110548814");
+			status = embedInfoPGM(image, "32110548814");
 			break;
 		case 4:
-			embedInfoPGM(image, "32110548799");
+			status = embedInfoPGM(image, "32110548799");
 			break;
+	}
+	if(status)
+	{
+		printf("\nImage Grey Max < 10, Option 'm' Terminated!\n");
+		return;
 	}
     printPixelPGM(stdout, image, NULL);
 	printf("\n>>>Option 'm' Finished!\n");

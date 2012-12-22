@@ -123,7 +123,7 @@ int readFilePGM(FILE *file, PGM *image)
 	tempImg.width = readNum(file);
 	tempImg.height = readNum(file);
 	tempImg.greyMax = readNum(file);
-	if(tempImg.width<0 || tempImg.height<0 || tempImg.greyMax<0)
+	if(tempImg.width<0 || tempImg.height<0 || tempImg.greyMax<=0)
 		return -1;
 	if(tempImg.width>300 || tempImg.height>300 || tempImg.greyMax>255)
 		return -1;
@@ -194,6 +194,8 @@ int embedInfoPGM(PGM *image, char* info)
 {
 	int temp;
 	unsigned int i;	/*ifn => compiler warning b/c "size_t strlen()"*/
+	if(image->greyMax<9)
+		return 1;
 	for(i=0; i<strlen(info); i++)
 	{
 		temp = image->pixelData[i]/10*10+(int)info[i]-48;
