@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module anonymous-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="508" level="1" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="137" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="136" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="3.735" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.007" level="0" />
+<weighted_methods_per_class_unity value="25" level="0" />
+<weighted_methods_per_class_visibility value="0" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="0" level="0" />
+<IF4 value="0" level="0" />
+<IF4_per_member_function value="********" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_visible_per_member_function value="********" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>CLIReadNum(char *)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\main.c" line="128" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\main.c" line="438" />
+</extent>
+<lines_of_code value="33" level="1" />
+<McCabes_cyclomatic_complexity value="15" level="1" />
+<lines_of_comment value="9" level="0" />
+<lines_of_code_per_line_of_comment value="3.667" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.667" level="0" />
+</member_function>
+<member_function>
+<name>cProcess(PGM *)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\main.c" line="50" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\main.c" line="190" />
+</extent>
+<lines_of_code value="41" level="1" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="45" level="0" />
+<lines_of_code_per_line_of_comment value="0.911" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>eProcess(PGM *)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\main.c" line="57" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\main.c" line="331" />
+</extent>
+<lines_of_code value="39" level="1" />
+<McCabes_cyclomatic_complexity value="9" level="0" />
+<lines_of_comment value="5" level="0" />
+<lines_of_code_per_line_of_comment value="7.800" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.800" level="0" />
+</member_function>
+<member_function>
+<name>embedInfoPGM(PGM *,char *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\CPGM.c" line="193" />
+</extent>
+<lines_of_code value="12" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getFileName(char *)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\main.c" line="109" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\main.c" line="397" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="14" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>horizontalFlip(PGM *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\CPGM.c" line="231" />
+</extent>
+<lines_of_code value="11" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>isNullPGM(const PGM *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\CPGM.c" line="69" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>mProcess(PGM *)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\main.c" line="64" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\main.c" line="299" />
+</extent>
+<lines_of_code value="30" level="0" />
+<McCabes_cyclomatic_complexity value="7" level="0" />
+<lines_of_comment value="5" level="0" />
+<lines_of_code_per_line_of_comment value="6.000" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.400" level="0" />
+</member_function>
+<member_function>
+<name>main()</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\main.c" line="133" />
+</extent>
+<lines_of_code value="29" level="0" />
+<McCabes_cyclomatic_complexity value="10" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="14.500" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="5.000" level="0" />
+</member_function>
+<member_function>
+<name>negative(PGM *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\CPGM.c" line="222" />
+</extent>
+<lines_of_code value="8" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>printAttPGM(FILE *,const PGM *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\CPGM.c" line="207" />
+</extent>
+<lines_of_code value="8" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>printMainMenu()</name>
+<extent>
+<description>declaration</description>
+<source_reference file="C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\main.c" line="90" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\main.c" line="375" />
+</extent>
+<lines_of_code value="10" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>printPixelPGM(FILE *,const PGM *,char *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\CPGM.c" line="161" />
+</extent>
+<lines_of_code value="31" level="1" />
+<McCabes_cyclomatic_complexity value="6" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="15.500" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="3.000" level="0" />
+</member_function>
+<member_function>
+<name>rProcess(PGM *)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\main.c" line="71" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\main.c" line="163" />
+</extent>
+<lines_of_code value="26" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="5" level="0" />
+<lines_of_code_per_line_of_comment value="5.200" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>readFilePGM(FILE *,PGM *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\CPGM.c" line="79" />
+</extent>
+<lines_of_code value="54" level="1" />
+<McCabes_cyclomatic_complexity value="30" level="1" />
+<lines_of_comment value="11" level="0" />
+<lines_of_code_per_line_of_comment value="4.909" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="2.727" level="0" />
+</member_function>
+<member_function>
+<name>readNum(FILE *)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\CPGM.c" line="31" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\CPGM.c" line="33" />
+</extent>
+<lines_of_code value="33" level="1" />
+<McCabes_cyclomatic_complexity value="14" level="1" />
+<lines_of_comment value="5" level="0" />
+<lines_of_code_per_line_of_comment value="6.600" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="2.800" level="0" />
+</member_function>
+<member_function>
+<name>reset(PGM *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\CPGM.c" line="216" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>rotate90C(PGM *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\CPGM.c" line="259" />
+</extent>
+<lines_of_code value="13" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>safeGetInt(char *,int,int)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\main.c" line="122" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\main.c" line="421" />
+</extent>
+<lines_of_code value="16" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>safeGetString(char *,int)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\main.c" line="117" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\main.c" line="404" />
+</extent>
+<lines_of_code value="15" level="0" />
+<McCabes_cyclomatic_complexity value="6" level="0" />
+<lines_of_comment value="8" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.750" level="0" />
+</member_function>
+<member_function>
+<name>setNullPGM(PGM *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\CPGM.c" line="74" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>vProcess(const PGM *)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\main.c" line="78" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\main.c" line="281" />
+</extent>
+<lines_of_code value="18" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="5" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>verticalFlip(PGM *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\CPGM.c" line="245" />
+</extent>
+<lines_of_code value="11" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>wProcess(const PGM *)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\main.c" line="85" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\main.c" line="237" />
+</extent>
+<lines_of_code value="41" level="1" />
+<McCabes_cyclomatic_complexity value="12" level="1" />
+<lines_of_comment value="7" level="0" />
+<lines_of_code_per_line_of_comment value="5.857" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.714" level="0" />
+</member_function>
+<member_function>
+<name>writeFilePGM(FILE *,const PGM *,int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\CPGM.c" line="146" />
+</extent>
+<lines_of_code value="12" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>anonymous</name>
+<client_module>
+</client_module>
+<supplier_module>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

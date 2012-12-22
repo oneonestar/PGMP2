@@ -1,0 +1,77 @@
+CCCC_Module@anonymous@@
+CCCC_Module@char@builtin@
+CCCC_ModExt@char@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@double@builtin@
+CCCC_ModExt@double@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@float@builtin@
+CCCC_ModExt@float@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@int@builtin@
+CCCC_ModExt@int@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@long@builtin@
+CCCC_ModExt@long@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@void@builtin@
+CCCC_ModExt@void@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Member@anonymous@CLIReadNum@@(char *)@
+CCCC_MemExt@anonymous@CLIReadNum@@(char *)@C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\main.c@128@declaration@F????@LOC:1 COM:4 MVG:0@?@D@
+CCCC_MemExt@anonymous@CLIReadNum@@(char *)@C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\main.c@438@definition@F????@LOC:32 COM:5 MVG:15@?@d@
+CCCC_Member@anonymous@cProcess@@(PGM *)@
+CCCC_MemExt@anonymous@cProcess@@(PGM *)@C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\main.c@50@declaration@F????@LOC:1 COM:40 MVG:0@?@D@
+CCCC_MemExt@anonymous@cProcess@@(PGM *)@C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\main.c@190@definition@F????@LOC:40 COM:5 MVG:4@?@d@
+CCCC_Member@anonymous@eProcess@@(PGM *)@
+CCCC_MemExt@anonymous@eProcess@@(PGM *)@C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\main.c@57@declaration@F????@LOC:1 COM:5 MVG:0@?@D@
+CCCC_MemExt@anonymous@eProcess@@(PGM *)@C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\main.c@331@definition@F????@LOC:38 COM:0 MVG:9@?@d@
+CCCC_Member@anonymous@embedInfoPGM@@(PGM *,char *)@
+CCCC_MemExt@anonymous@embedInfoPGM@@(PGM *,char *)@C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\CPGM.c@193@definition@FT???@LOC:12 COM:1 MVG:3@?@d@
+CCCC_Member@anonymous@getFileName@@(char *)@
+CCCC_MemExt@anonymous@getFileName@@(char *)@C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\main.c@109@declaration@F????@LOC:1 COM:13 MVG:0@?@D@
+CCCC_MemExt@anonymous@getFileName@@(char *)@C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\main.c@397@definition@F????@LOC:4 COM:1 MVG:0@?@d@
+CCCC_Member@anonymous@horizontalFlip@@(PGM *)@
+CCCC_MemExt@anonymous@horizontalFlip@@(PGM *)@C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\CPGM.c@231@definition@FT???@LOC:11 COM:2 MVG:2@?@d@
+CCCC_Member@anonymous@isNullPGM@@(const PGM *)@
+CCCC_MemExt@anonymous@isNullPGM@@(const PGM *)@C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\CPGM.c@69@definition@FT???@LOC:4 COM:0 MVG:1@?@d@
+CCCC_Member@anonymous@mProcess@@(PGM *)@
+CCCC_MemExt@anonymous@mProcess@@(PGM *)@C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\main.c@64@declaration@F????@LOC:1 COM:5 MVG:0@?@D@
+CCCC_MemExt@anonymous@mProcess@@(PGM *)@C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\main.c@299@definition@F????@LOC:29 COM:0 MVG:7@?@d@
+CCCC_Member@anonymous@main@@()@
+CCCC_MemExt@anonymous@main@@()@C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\main.c@133@definition@F????@LOC:29 COM:2 MVG:10@?@d@
+CCCC_Member@anonymous@negative@@(PGM *)@
+CCCC_MemExt@anonymous@negative@@(PGM *)@C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\CPGM.c@222@definition@FT???@LOC:8 COM:0 MVG:1@?@d@
+CCCC_Member@anonymous@printAttPGM@@(FILE *,const PGM *)@
+CCCC_MemExt@anonymous@printAttPGM@@(FILE *,const PGM *)@C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\CPGM.c@207@definition@FT???@LOC:8 COM:0 MVG:0@?@d@
+CCCC_Member@anonymous@printMainMenu@@()@
+CCCC_MemExt@anonymous@printMainMenu@@()@C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\main.c@90@declaration@F????@LOC:1 COM:3 MVG:0@?@D@
+CCCC_MemExt@anonymous@printMainMenu@@()@C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\main.c@375@definition@F????@LOC:9 COM:0 MVG:0@?@d@
+CCCC_Member@anonymous@printPixelPGM@@(FILE *,const PGM *,char *)@
+CCCC_MemExt@anonymous@printPixelPGM@@(FILE *,const PGM *,char *)@C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\CPGM.c@161@definition@FT???@LOC:31 COM:2 MVG:6@?@d@
+CCCC_Member@anonymous@rProcess@@(PGM *)@
+CCCC_MemExt@anonymous@rProcess@@(PGM *)@C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\main.c@71@declaration@F????@LOC:1 COM:5 MVG:0@?@D@
+CCCC_MemExt@anonymous@rProcess@@(PGM *)@C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\main.c@163@definition@F????@LOC:25 COM:0 MVG:4@?@d@
+CCCC_Member@anonymous@readFilePGM@@(FILE *,PGM *)@
+CCCC_MemExt@anonymous@readFilePGM@@(FILE *,PGM *)@C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\CPGM.c@79@definition@FT???@LOC:54 COM:11 MVG:30@?@d@
+CCCC_Member@anonymous@readNum@@(FILE *)@
+CCCC_MemExt@anonymous@readNum@@(FILE *)@C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\CPGM.c@31@declaration@FT???@LOC:1 COM:0 MVG:0@?@D@
+CCCC_MemExt@anonymous@readNum@@(FILE *)@C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\CPGM.c@33@definition@FT???@LOC:32 COM:5 MVG:14@?@d@
+CCCC_Member@anonymous@reset@@(PGM *)@
+CCCC_MemExt@anonymous@reset@@(PGM *)@C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\CPGM.c@216@definition@FT???@LOC:4 COM:0 MVG:0@?@d@
+CCCC_Member@anonymous@rotate90C@@(PGM *)@
+CCCC_MemExt@anonymous@rotate90C@@(PGM *)@C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\CPGM.c@259@definition@FT???@LOC:13 COM:2 MVG:2@?@d@
+CCCC_Member@anonymous@safeGetInt@@(char *,int,int)@
+CCCC_MemExt@anonymous@safeGetInt@@(char *,int,int)@C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\main.c@122@declaration@F????@LOC:1 COM:3 MVG:0@?@D@
+CCCC_MemExt@anonymous@safeGetInt@@(char *,int,int)@C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\main.c@421@definition@F????@LOC:15 COM:0 MVG:4@?@d@
+CCCC_Member@anonymous@safeGetString@@(char *,int)@
+CCCC_MemExt@anonymous@safeGetString@@(char *,int)@C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\main.c@117@declaration@F????@LOC:1 COM:6 MVG:0@?@D@
+CCCC_MemExt@anonymous@safeGetString@@(char *,int)@C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\main.c@404@definition@F????@LOC:14 COM:2 MVG:6@?@d@
+CCCC_Member@anonymous@setNullPGM@@(PGM *)@
+CCCC_MemExt@anonymous@setNullPGM@@(PGM *)@C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\CPGM.c@74@definition@FT???@LOC:4 COM:0 MVG:0@?@d@
+CCCC_Member@anonymous@vProcess@@(const PGM *)@
+CCCC_MemExt@anonymous@vProcess@@(const PGM *)@C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\main.c@78@declaration@F????@LOC:1 COM:5 MVG:0@?@D@
+CCCC_MemExt@anonymous@vProcess@@(const PGM *)@C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\main.c@281@definition@F????@LOC:17 COM:0 MVG:3@?@d@
+CCCC_Member@anonymous@verticalFlip@@(PGM *)@
+CCCC_MemExt@anonymous@verticalFlip@@(PGM *)@C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\CPGM.c@245@definition@FT???@LOC:11 COM:2 MVG:2@?@d@
+CCCC_Member@anonymous@wProcess@@(const PGM *)@
+CCCC_MemExt@anonymous@wProcess@@(const PGM *)@C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\main.c@85@declaration@F????@LOC:1 COM:5 MVG:0@?@D@
+CCCC_MemExt@anonymous@wProcess@@(const PGM *)@C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\main.c@237@definition@F????@LOC:40 COM:2 MVG:12@?@d@
+CCCC_Member@anonymous@writeFilePGM@@(FILE *,const PGM *,int)@
+CCCC_MemExt@anonymous@writeFilePGM@@(FILE *,const PGM *,int)@C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\CPGM.c@146@definition@FT???@LOC:12 COM:0 MVG:2@?@d@
+CCCC_RejExt@C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\CPGM.c@1@<file scope items>@FT???@LOC:1 COM:24 MVG:0@?@r@
+CCCC_RejExt@C:\Users\Star\Desktop\SCHOOL\Programming\Project\Handin\src\main.c@1@<file scope items>@F????@LOC:1 COM:1 MVG:0@?@r@
