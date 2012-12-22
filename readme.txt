@@ -1,7 +1,4 @@
 PGM Image Processor
-Course: Introduction to Computer Programming
-Year: 2012-2013 Semester 1
-Team 1, Group Members: Law Chun Kin (10549919), Lok Lun Fai (10548814), Poon Yat Sing (10552020), Tai Ying Hon (10548799)
 
 Objectives
 =============
@@ -21,19 +18,12 @@ make
 File List
 =============
 |-Documentation/  ......... Additional documentation files
-|-icp1102_01/ ............. Source code, exe file and readme
-  |-src/ ..................   Source code
-     |-CPGM.c .............     CPGM Kernel
-     |-CPGM.h .............     Header File
-     |-main.c .............     Main function + UI
-  |-readme.txt ............   Readme file
-  |-icp1102_01 ............   Executable file
-|-icp1102_01testim/ ....... Testing Images
-  |-orgIm/ ................   A set of original image files
-  |-outIm/ ................   A set of output image files
-|-icp1102_01.ppt .......... Presentation Powerpoint
+|-src/ ..................   Source code
+   |-CPGM.c .............     CPGM Kernel
+   |-CPGM.h .............     Header File
+   |-main.c .............     Main function + UI
+|-readme.txt ............   Readme file
 
-Known Errors: N/A
 
 License
 =============
